@@ -42,6 +42,7 @@ RSpec.configure do |config|
   config.include Rails::Controller::Testing::TestProcess, type: :controller
   config.include Rails::Controller::Testing::TemplateAssertions, type: :controller
   # Also enable rails-controller-testing modules for request specs
+  config.include Rails::Controller::Testing::TestProcess, type: :request
   config.include Rails::Controller::Testing::TemplateAssertions, type: :request
   config.include Rails::Controller::Testing::Integration, type: :request
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
