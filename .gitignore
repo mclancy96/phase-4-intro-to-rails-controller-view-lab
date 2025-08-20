@@ -1,0 +1,144 @@
+# .gitignore for Rails
+/.bundle
+/log/
+/tmp/
+/db/*.sqlite3*
+/db/*.sqlite3-journal
+/public/assets
+/.byebug_history
+/.env
+/.env.*
+/node_modules/
+/yarn-error.log
+/coverage/
+/spec/examples.txt
+/.rspec_status
+/.rubocop-https---*
+/.rubocop_cache/
+/.yardoc
+/_yardoc
+/coverage/
+*.rbc
+*.sassc
+*.swp
+*~
+.project
+.idea/
+.secret
+.DS_Store
+
+# .gitignore for Rails (robust)
+/.bundle
+/log/
+/tmp/
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets
+.byebug_history
+/.byebug_history
+/.env
+/.env.*
+/node_modules/
+/yarn-error.log
+/coverage/
+/spec/examples.txt
+/.rspec_status
+/.rubocop-https---*
+/.rubocop_cache/
+/.yardoc
+/_yardoc
+/coverage/
+*.rbc
+*.sassc
+*.swp
+*~
+.project
+.idea/
+.secret
+.DS_Store
+
+# Ignore master.key, credentials, and secrets
+/config/master.key
+/config/credentials.yml.enc
+/config/secrets.yml
+
+# Ignore editor/IDE files
+*.iml
+*.sublime*
+*.vscode/
+*.code-workspace
+
+# Ignore OS files
+Thumbs.db
+Desktop.ini
+
+# Ignore test, coverage, and debug output
+/test/tmp/
+/test/version_tmp/
+/spec/tmp/
+/spec/fixtures/files/
+/spec/reports/
+/spec/javascripts/tmp/
+/spec/dummy/tmp/
+/spec/dummy/db/*.sqlite3
+/spec/dummy/db/*.sqlite3-journal
+
+# Ignore asset and cache files
+/public/packs
+/public/packs-test
+/public/assets
+/public/packs-test/
+/public/packs/
+/public/assets/
+/tmp/cache/
+/tmp/pids/
+/tmp/sockets/
+/tmp/storage/
+/storage/
+
+# Ignore Spring files
+/tmp/spring/
+
+# Ignore byebug command history
+.byebug_history
+
+# Ignore pry command history
+.pry_history
+
+# Ignore IRB history
+.irb-history
+
+# Ignore Capybara screenshots
+/tmp/capybara/
+
+# Ignore SimpleCov coverage results
+/coverage/
+
+# Ignore dotenv environment variables
+.env
+.env.*
+
+# Ignore local Ruby version managers
+.rbenv-version
+.ruby-version
+.rvmrc
+.rvm/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore log files
+*.log
+
+# Ignore yarn and npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore custom secrets
+/config/initializers/secret_token.rb
+# Ignore master.key, credentials, and secrets
+/config/master.key
+/config/credentials.yml.enc
